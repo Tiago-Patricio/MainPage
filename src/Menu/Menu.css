@@ -1,0 +1,97 @@
+
+.button1{
+    
+    position: absolute;
+    right: 15%;
+    top: -1%;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.button2{
+    
+    position: absolute;
+    right: 10%;
+    top: -1%;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.button3{
+    
+    position: absolute;
+    right: 5%;
+    top: -1%;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+    padding-top: 2%;
+}
+
+.view {
+    margin-top: -56px;
+}
+.navbar {
+    z-index: 1;
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 100%;
+    height:70px;
+    background: #3e4444;
+    box-shadow: 1px 3px 4px rgba(0, 0, 42, 0.5);
+    
+  }
+
+  
+
+  .PageName{
+
+    position: absolute;
+    right: 50%;
+    top: -1.5%;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+
+  .PageName:hover, .PageName:visited, .PageName:link, .PageName:active
+{
+    text-decoration: none;
+}
+  .Avatar{
+   position: relative;
+    height: 7%;
+    width: 7%;
+    left: -40%;
+    top: -37px;
+    transform: rotate(-10deg);
+    border-radius: 15px 50px 30px 5px;
+    box-shadow: 1px 3px 2px rgba(42, 42, 42, 0.5);
+    transition: all .2s ease-in-out; 
+
+  }
+
+  .Avatar:hover{
+
+    transform: scale(1.2); 
+  }
+      

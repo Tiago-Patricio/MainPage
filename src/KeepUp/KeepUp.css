@@ -1,0 +1,45 @@
+.gitHub{
+    height: 30%;
+    width: 30%;
+    top: 30px;
+    left: 33%;
+    position: relative;
+    animation: transitionIn 1000ms;
+}
+
+.linkedin{
+    
+        height: 30%;
+        width: 30%;
+        top: 120px;
+        left: 33%;
+        position: relative;
+        animation: transitionIn 2000ms;
+}
+
+
+.instagram{
+    
+    height: 30%;
+    width: 30%;
+    top: 210px;
+    left: 33%;
+    position: relative;
+    animation: transitionIn 2500ms;
+    
+}
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {    
+
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
