@@ -1,17 +1,23 @@
 import React from 'react';
 import './Menu.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 
 
 const Menu = () => {
 
-    
+   
 
     return (
+        
         <>
-        <div className="Buttons">
+        
+    
+        <nav id="navbar">
+       
+    
         <div>
-            <Link to="/about">
+            <Link to="/">
         <a className="button1"> About </a>
         </Link>
         </div>
@@ -25,9 +31,11 @@ const Menu = () => {
         <a className="button3"> KeepUp </a>
         </Link>
        </div>
-    </div>
+ 
 
-    <a className="PageName" href="/MainPage"> TIAGO PATRICIO </a>
+       <img className="PageName" src="/images/tiagopatriciowhite.PNG" alt=""/>
+    </nav>
+    
     </>
 )
 };

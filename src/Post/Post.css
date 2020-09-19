@@ -1,71 +1,150 @@
-
-
-
 .Post1{
  
-    position: absolute;
-    background-color: whitesmoke;
-    left: 7%;
-    top: 45%;
-    width: 400px;
-    height: 250px;
+    position: relative;
+    left: 25vw;
+    top: -25vh;
+    width: 50%;
+    height:200px;
+    background: #ffffff;
     box-shadow: 1px 3px 4px rgba(0, 0, 42, 0.5);
-    animation: transitionIn 1000ms;
+   
     
     
 
 }
 .Post2{
 
-    position: absolute;
-    background-color: whitesmoke;
-    left: 16%;
-    top: 30%;
-    width: 400px;
-    height: 250px;
+    position: relative;
+    left: 25vw;
+    top: -5vh;
+    width: 50%;
+    height:200px;
+    background: #ffffff;
     box-shadow: 1px 3px 4px rgba(0, 0, 42, 0.5);
-    margin-left: 20%;
-    animation: transitionIn 2000ms;
-    
-   
 }
 
 
+.summonAll{
+    position: relative;
+    top: 10vh;
+}
 
 .Post3{
 
-    position: absolute;
-    background-color: whitesmoke;
-    left: 50%;
-    top: 45%;
-    width: 400px;
-    height: 250px;
+    position: relative;
+    top: 15vh;
+    left: 25vw;
+    width: 50%;
+    height:200px;
+    background: #ffffff;
     box-shadow: 1px 3px 4px rgba(0, 0, 42, 0.5);
-    margin-left: 20%;
-    
-    animation: transitionIn 3500ms;
-    
 }
 
+.projectsTitle{
+
+    position: relative;
+    height: 50vh;
+    top: -15vh;
+}
 .imgPost2{
 
     width: 150px;
     height: 75px;
-
 }
 
+.footerAbout2{
+    position: relative;
+    display: inline;
+    top: 30vh;
+    width: 100%;
+}
+
+.moreAboutReactangle2{
+    position: relative;
+    top: -54vw;
+    left: 0vw;
+    width:100%;
+    height:10vh;
+    background:rgb(255, 94, 0);
+    z-index: -7;
+}
+
+.moreAboutReactangle3{
+    position: relative;
+    top: -38vw;
+    left: 0vw;
+    width:100%;
+    height:10vh;
+    background:rgb(255, 94, 0);
+    z-index: -7;
+}
+
+.moreAboutReactangle4{
+    position: relative;
+    top: -21vw;
+    left: 0vw;
+    width:100%;
+    height:10vh;
+    background:rgb(255, 94, 0);
+    z-index: -7;
+}
 .imgPost1{
 
     width: 150px;
     height: 90px;
-
 }
+
+
 
 h3{
 
     color: silver;
     font-size: 80%;
 }
+
+
+
+
+
+
+.button10:hover {
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.button11:hover {
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.button11{
+    position: absolute;
+    right: 87vh;
+    top: 90vh;
+    background-color: #0b60a7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button10{
+    position: absolute;
+    right: 87vh;
+    top: 48vh;
+    background-color: #0b60a7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
 
 @keyframes transitionIn {
     from {
@@ -81,3 +160,32 @@ h3{
 
 }
 
+
+@keyframes transitionInCard {
+    from {
+        opacity: 0;
+        transform: translateX(0);
+    }
+
+    to {    
+
+        opacity: 1;
+        transform: translateX(30px);
+    }
+
+}
+
+
+@keyframes transitionInCardRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {    
+
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}

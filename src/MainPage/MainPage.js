@@ -8,7 +8,7 @@ const MainPage = () => {
 
     return(
         <div className="Video">
-            <video autoPlay loop fadeout
+            <video autoPlay 
             style={{
                 position: "absolute",
                 width: "100%",
