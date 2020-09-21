@@ -18,7 +18,7 @@ const Menu = () => {
     
         <div>
             <Link to="/">
-        <a className="button1"> About </a>
+        <a className="button1"> Home </a>
         </Link>
         </div>
         <div>
@@ -27,8 +27,8 @@ const Menu = () => {
         </Link>
         </div>
         <div>
-            <Link to="/keepup">
-        <a className="button3"> KeepUp </a>
+            <Link to="/contacts">
+        <a className="button3"> Contacts </a>
         </Link>
        </div>
  

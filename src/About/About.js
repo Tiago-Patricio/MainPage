@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
         return (
            <>
+           <img className="pcIcon" src="/images/about icons.PNG" alt=""/>
                <div className="selectAll">  
 
                         <div className="selective">
@@ -15,11 +16,9 @@ const About = () => {
                        
                      
 
-                     
+                        
                  </div>
-               <img className="pcIcon" src="/images/pcIcon.PNG" alt=""/>
-               <img className="pcIcon1" src="/images/designPc.PNG" alt=""/>
-               <img className="pcIcon2" src="/images/cameraIcon.PNG" alt=""/>
+               
                <div className="backgroundRectangle"></div>
                
                <div>

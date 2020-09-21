@@ -19,11 +19,11 @@
 }
 
 .instagram {
-    height: 30%;
+    position: relative;
     width: 30%;
     top: 14vh;
     left: 65vh;
-    position: relative;
+  
     animation: transitionIn 2500ms;
 }
 
@@ -113,11 +113,11 @@
 
 .backgroundRectangleUp{
 
-    position: relative;
-    top: 3.5vw;
+    position: absolute;
+    top: 28vw;
     left: 0vw;
     width:100%;
-    height:47.5vh;
+    height:47vh;
     background:rgb(255, 94, 0);
     z-index: -7;
 
@@ -130,4 +130,14 @@
     top: 84vh;
     left: 0vh;
     width: 100%;
+}
+
+.contactsTitle{
+
+    position: absolute;
+    width: 18vw;
+    top:6vw;
+    left: 38vw;
+   
+
 }
