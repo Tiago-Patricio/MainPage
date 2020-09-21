@@ -16,7 +16,7 @@ const KeepUp = () => {
          <div className = "gitHub">  
             <img className = "imgPost1"  src = "/images/github.png" alt = ""/>
         <br/><br/>
-        <a className = "button4" href = "https://github.com/Tiago-Patricio" target="_blank"> Go to GitHub </a> 
+        <a className = "button4" href = "https://github.com/Tiago-Patricio"> Go to GitHub </a> 
         </div>
      
    
@@ -24,14 +24,14 @@ const KeepUp = () => {
             <img className = "imgPost1" src = "/images/linkedin.png" alt = ""/>
         <br/> < br/>
         <a className = "button5"
-        href = "https://www.linkedin.com/in/tiago-patricio/" target="_blank"> Go to linkedIn </a> 
+        href = "https://www.linkedin.com/in/tiago-patricio/"> Go to linkedIn </a> 
         </div>
 
         <div className = "instagram" >
         <img className = "imgPost1" src = "/images/instagram.png" alt = ""/>
         <br/> < br/>
          <a className = "button6"
-         href = "https://www.instagram.com/itiagopatricio/" target="_blank"> Go to instagram </a> 
+         href = "https://www.instagram.com/itiagopatricio/"> Go to instagram </a> 
         </div>
         
         <img className="footerUp" src="/images/footer.png" alt=""/>

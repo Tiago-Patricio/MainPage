@@ -15,7 +15,7 @@ const Post = () => {
 
 
         <a className = "button10"
-            href = "https://github.com/Tiago-Patricio/GTFelinux" target="_blank"> See Project </a>
+            href = "https://github.com/Tiago-Patricio/GTFelinux"> See Project </a>
 
 
 
@@ -26,7 +26,7 @@ const Post = () => {
 
             
         <a className = "button11"
-        href = "https://github.com/Tiago-Patricio/InterviewSimulator" target="_blank"> See Project </a>
+            href = "https://github.com/Tiago-Patricio/InterviewSimulator"> See Project </a>
 
     
         
